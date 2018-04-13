@@ -15,6 +15,8 @@
 		F773C90F207E50920008E85E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F773C90E207E50920008E85E /* main.m */; };
 		F773C919207E50920008E85E /* ChainBlockTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F773C918207E50920008E85E /* ChainBlockTestAppTests.m */; };
 		F773C924207E50920008E85E /* ChainBlockTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F773C923207E50920008E85E /* ChainBlockTestAppUITests.m */; };
+		F773C936207E50D50008E85E /* CaculateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F773C935207E50D50008E85E /* CaculateMaker.m */; };
+		F773C939207E53320008E85E /* NSObject+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = F773C938207E53320008E85E /* NSObject+Caculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F773C91F207E50920008E85E /* ChainBlockTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainBlockTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F773C923207E50920008E85E /* ChainBlockTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainBlockTestAppUITests.m; sourceTree = "<group>"; };
 		F773C925207E50920008E85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F773C934207E50D50008E85E /* CaculateMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculateMaker.h; sourceTree = "<group>"; };
+		F773C935207E50D50008E85E /* CaculateMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculateMaker.m; sourceTree = "<group>"; };
+		F773C937207E53320008E85E /* NSObject+Caculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculate.h"; sourceTree = "<group>"; };
+		F773C938207E53320008E85E /* NSObject+Caculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F773C900207E50920008E85E /* AppDelegate.m */,
 				F773C902207E50920008E85E /* ViewController.h */,
 				F773C903207E50920008E85E /* ViewController.m */,
+				F773C934207E50D50008E85E /* CaculateMaker.h */,
+				F773C935207E50D50008E85E /* CaculateMaker.m */,
+				F773C937207E53320008E85E /* NSObject+Caculate.h */,
+				F773C938207E53320008E85E /* NSObject+Caculate.m */,
 				F773C905207E50920008E85E /* Main.storyboard */,
 				F773C908207E50920008E85E /* Assets.xcassets */,
 				F773C90A207E50920008E85E /* LaunchScreen.storyboard */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F773C904207E50920008E85E /* ViewController.m in Sources */,
+				F773C939207E53320008E85E /* NSObject+Caculate.m in Sources */,
 				F773C90F207E50920008E85E /* main.m in Sources */,
 				F773C901207E50920008E85E /* AppDelegate.m in Sources */,
+				F773C936207E50D50008E85E /* CaculateMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
